@@ -1,5 +1,5 @@
 Rails.application.configure do
- 
+
   config.cache_classes = true
   config.eager_load = false
 
@@ -11,15 +11,15 @@ Rails.application.configure do
   config.consider_all_requests_local       = true
   config.action_controller.perform_caching = false
 
- 
+
   config.action_dispatch.show_exceptions = false
 
   config.action_controller.allow_forgery_protection = false
   config.action_mailer.perform_caching = false
 
-  
+
   config.action_mailer.delivery_method = :test
-  config.action_mailer.default_url_options = { host: '06f94f09794143fa9d708cbff698cf78.vfs.cloud9.us-east-2.amazonaws.com' }
+  config.action_mailer.default_url_options = { host: 'nobuo-rails-tutorial.herokuapp.com' }
   config.active_support.deprecation = :stderr
 
 end
